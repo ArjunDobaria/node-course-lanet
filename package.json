@@ -4,7 +4,9 @@
   "description": "",
   "main": "async-basics.js",
   "dependencies": {
+    "address": "^1.0.3",
     "axios": "^0.17.1",
+    "chai": "^4.1.2",
     "expect": "^22.0.3",
     "express": "^4.16.2",
     "hbs": "^4.0.1",
@@ -17,7 +19,7 @@
     "tap": "^11.0.1"
   },
   "scripts": {
-    "test": "mocha utils/utils.test.js",
+    "test": "mocha **/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
   "author": "",
